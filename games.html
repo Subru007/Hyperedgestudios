@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Games - HyperEdge Studios</title>
+    <link rel="stylesheet" href="games.css">
+    <style>
+        /* Make the links white and remove underlines */
+        .game-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Optional: Add hover effect to change color when hovered */
+        .game-links a:hover {
+            color: #ccc; /* Light gray on hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Images/Logo.png" alt="HyperEdge Studios Logo">
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="nav-menu" id="navMenu">
+        <a href="index.html" onclick="closeMenu()">Home</a>
+        <a href="about.html" onclick="closeMenu()">About Us</a>
+        <a href="games.html" onclick="closeMenu()">Our Games</a>
+        <a href="contact.html" onclick="closeMenu()">Contact Us</a>
+    </div>
+</header>
+
+<section>
+    <h2>Our Games</h2>
+
+    <!-- Maria: The Dark Spirit Game -->
+    <div class="game">
+        <img src="Images/MariaLogo.png" alt="Game 1 Logo" class="game-logo">
+        <h3>Maria: The Dark Spirit</h3>
+        <p>In this game you explore a cursed convent haunted by Sister Maria's vengeful spirit. Uncover her tragic past through eerie corridors and terrifying encounters. Solve puzzles and make choices that determine your fate in this chilling horror experience. Will you survive the darkness?</p>
+        
+        <!-- Game Links for Maria: The Dark Spirit -->
+        <div class="game-links">
+            <a href="https://store.steampowered.com/app/yoursteamlink" target="_blank">Steam</a> |
+            <a href="https://play.google.com/store/apps/details?id=yourplaystorelink" target="_blank">Playstore</a> |
+            <a href="https://www.epicgames.com/store/en-US/p/yourepicgameslink" target="_blank">Epic Games</a>
+        </div>
+    </div>
+
+    <!-- RopeRumble Game -->
+    <div class="game">
+        <img src="Images/RopeRumble.jpg" alt="Game 2 Logo" class="game-logo">
+        <h3>RopeRumble</h3>
+        <p>RopeRumble is a fast-paced multiplayer game where players engage in thrilling matches of climbing, teleporting, and navigating dynamic environments. Players use ropes and special abilities to outmaneuver opponents, reach new heights, and dominate in intense battles. With unique arenas and fast-action gameplay, RopeRumble challenges players to master both strategy and skill as they race to the top and engage in epic showdowns.</p>
+        
+        <!-- Game Links for RopeRumble -->
+        <div class="game-links">
+            <a href="https://store.steampowered.com/app/yoursteamlink" target="_blank">Steam</a> |
+            <a href="https://play.google.com/store/apps/details?id=yourplaystorelink" target="_blank">Playstore</a> |
+            <a href="https://www.epicgames.com/store/en-US/p/yourepicgameslink" target="_blank">Epic Games</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 HyperEdge Studios. All rights reserved.</p>
+</footer>
+
+<script src="games.js"></script>
+</body>
+</html>
